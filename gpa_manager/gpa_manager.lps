@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="gpa_manager.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="44" Y="10"/>
+        <UsageCount Value="140"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main_form.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="81"/>
+        <CursorPos X="5" Y="103"/>
+        <UsageCount Value="140"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="gpa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="34" Y="195"/>
+        <UsageCount Value="140"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="gpa_wrapper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="94"/>
+        <CursorPos X="25" Y="193"/>
+        <UsageCount Value="140"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="settings_form.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <CursorPos Y="8"/>
+        <UsageCount Value="116"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Pascal\fpcupdeluxe\fpcsrc\rtl\win\wininc\ascdef.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="10" Y="70"/>
+        <UsageCount Value="12"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Pascal\fpcupdeluxe\lazarus\lcl\include\menuitem.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="70"/>
+        <CursorPos Y="85"/>
+        <UsageCount Value="69"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Pascal\fpcupdeluxe\fpcsrc\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1087"/>
+        <CursorPos X="3" Y="1104"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Pascal\fpcupdeluxe\fpcsrc\rtl\objpas\objpas.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="141"/>
+        <CursorPos X="15" Y="158"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Pascal\fpcupdeluxe\fpcsrc\rtl\objpas\sysutils\sysutilh.inc"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="274"/>
+        <CursorPos Y="291"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="115" TopLine="98"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="71" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa.pas"/>
+        <Caret Line="163" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa.pas"/>
+        <Caret Line="164" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa.pas"/>
+        <Caret Line="168" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa.pas"/>
+        <Caret Line="172" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa.pas"/>
+        <Caret Line="173" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa.pas"/>
+        <Caret Line="172" Column="31" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="71" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="10" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="157" Column="5" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="149" Column="52" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="70" Column="22" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="407" Column="15" TopLine="406"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="549" Column="6" TopLine="407"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="551" Column="10" TopLine="540"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="421" Column="6" TopLine="406"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="558" Column="5" TopLine="530"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="421" Column="6" TopLine="404"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="568" Column="13" TopLine="537"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="443" Column="50" TopLine="427"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="556" Column="12" TopLine="538"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="426" Column="24" TopLine="414"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="42" Column="18" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="180" Column="9" TopLine="178"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="187" Column="56" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="195" Column="26" TopLine="178"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="217" Column="5" TopLine="184"/>
+      </Position>
+      <Position>
+        <Filename Value="gpa_wrapper.pas"/>
+        <Caret Line="211" Column="22" TopLine="203"/>
+      </Position>
+      <Position>
+        <Filename Value="main_form.pas"/>
+        <Caret Line="582" Column="52" TopLine="567"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

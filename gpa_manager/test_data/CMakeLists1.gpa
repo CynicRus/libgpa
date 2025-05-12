@@ -1,0 +1,34 @@
+cmake_minimum_required(VERSION 3.10)
+project(GPA C)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+option(BUILD_SHARED "Build shared library (DLL/SO)" ON)
+
+find_package(ZLIB REQUIRED)
+
+set(SOURCES gpa.c)
+set(HEADERS gpa.h)
+
+if(BUILD_SHARED)
+    add_library(gpa SHARED ${SOURCES} ${HEADERS})
+    target_compile_definitions(gpa PRIVATE GPA_BUILD_DLL)
+else()
+    add_library(gpa STATIC ${SOURCES} ${HEADERS})
+endif()
+
+target_link_libraries(gpa PRIVATE ZLIB::ZLIB)
+target_include_directories(gpa PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+set_target_properties(gpa PROPERTIES
+                      ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"
+                      LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"
+                      RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
+                     )
+
+if(WIN32)
+    set_target_properties(gpa PROPERTIES OUTPUT_NAME "gpa")
+else()
+    set_target_properties(gpa PROPERTIES OUTPUT_NAME "gpa")
+endif()

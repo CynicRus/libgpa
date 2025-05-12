@@ -1,0 +1,210 @@
+object MainForm: TMainForm
+  Left = 192
+  Height = 580
+  Top = 114
+  Width = 800
+  Caption = 'Archive Manager'
+  ClientHeight = 580
+  ClientWidth = 800
+  Menu = MainMenu
+  LCLVersion = '4.99.0.0'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  object Toolbar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 800
+    Caption = 'Toolbar'
+    TabOrder = 0
+    object BtnNew: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'New'
+      OnClick = FileNewClick
+    end
+    object BtnOpen: TToolButton
+      Left = 24
+      Top = 2
+      Caption = 'Open'
+      OnClick = FileOpenClick
+    end
+    object BtnSave: TToolButton
+      Left = 47
+      Top = 2
+      Caption = 'Save'
+      Enabled = False
+      OnClick = FileSaveClick
+    end
+    object BtnAddFile: TToolButton
+      Left = 70
+      Top = 2
+      Caption = 'Add File'
+      Enabled = False
+      OnClick = ArchiveAddFileClick
+    end
+    object BtnAddDir: TToolButton
+      Left = 93
+      Top = 2
+      Caption = 'Add Dir'
+      Enabled = False
+      OnClick = ArchiveAddDirClick
+    end
+    object BtnExtract: TToolButton
+      Left = 116
+      Top = 2
+      Caption = 'Extract'
+      Enabled = False
+      OnClick = ArchiveExtractClick
+    end
+    object BtnDelete: TToolButton
+      Left = 139
+      Top = 2
+      Caption = 'Delete'
+      Enabled = False
+      OnClick = ArchiveDeleteClick
+    end
+    object BtnRename: TToolButton
+      Left = 162
+      Top = 2
+      Caption = 'Rename'
+      Enabled = False
+      OnClick = ArchiveRenameClick
+    end
+    object BtnSettings: TToolButton
+      Left = 185
+      Top = 2
+      Caption = 'Settings'
+      OnClick = SettingsClick
+    end
+  end
+  object TreeView: TTreeView
+    Left = 0
+    Height = 531
+    Top = 26
+    Width = 200
+    Align = alLeft
+    ReadOnly = True
+    TabOrder = 1
+    Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+    OnSelectionChanged = TreeViewSelectionChanged
+  end
+  object ListView: TListView
+    Left = 200
+    Height = 531
+    Top = 26
+    Width = 600
+    Align = alClient
+    Columns = <    
+      item
+        Caption = 'Name'
+        Width = 200
+      end    
+      item
+        Caption = 'ID'
+      end    
+      item
+        Caption = 'Size'
+        Width = 100
+      end    
+      item
+        Caption = 'Real Size'
+        Width = 100
+      end    
+      item
+        Caption = 'Compression'
+        Width = 100
+      end    
+      item
+        Caption = 'Encrypted'
+        Width = 80
+      end>
+    TabOrder = 2
+    ViewStyle = vsReport
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 557
+    Width = 800
+    Panels = <>
+  end
+  object MainMenu: TMainMenu
+    Left = 16
+    Top = 8
+    object FileMenu: TMenuItem
+      Caption = 'File'
+      object FileNew: TMenuItem
+        Caption = 'New Archive...'
+        OnClick = FileNewClick
+      end
+      object FileOpen: TMenuItem
+        Caption = 'Open Archive...'
+        OnClick = FileOpenClick
+      end
+      object FileSave: TMenuItem
+        Caption = 'Save Archive'
+        Enabled = False
+        OnClick = FileSaveClick
+      end
+      object FileClose: TMenuItem
+        Caption = 'Close Archive'
+        Enabled = False
+        OnClick = FileCloseClick
+      end
+      object FileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = FileExitClick
+      end
+    end
+    object ArchiveMenu: TMenuItem
+      Caption = 'Archive'
+      object ArchiveAddFile: TMenuItem
+        Caption = 'Add File...'
+        Enabled = False
+        OnClick = ArchiveAddFileClick
+      end
+      object ArchiveAddDir: TMenuItem
+        Caption = 'Add Directory...'
+        Enabled = False
+        OnClick = ArchiveAddDirClick
+      end
+      object ArchiveExtract: TMenuItem
+        Caption = 'Extract...'
+        Enabled = False
+        OnClick = ArchiveExtractClick
+      end
+      object ArchiveDelete: TMenuItem
+        Caption = 'Delete'
+        Enabled = False
+        OnClick = ArchiveDeleteClick
+      end
+      object ArchiveRename: TMenuItem
+        Caption = 'Rename...'
+        Enabled = False
+        OnClick = ArchiveRenameClick
+      end
+    end
+    object SettingsMenu: TMenuItem
+      Caption = 'Settings'
+      object SettingsItem: TMenuItem
+        Caption = 'Archive Settings...'
+        OnClick = SettingsClick
+      end
+    end
+  end
+  object OpenDialog: TOpenDialog
+    Filter = 'Archive files (*.gpa)|*.gpa|All files (*.*)|*.*'
+    Left = 48
+    Top = 8
+  end
+  object SaveDialog: TSaveDialog
+    Filter = 'Archive files (*.gpa)|*.gpa|All files (*.*)|*.*'
+    Left = 80
+    Top = 8
+  end
+  object SelectDirDialog: TSelectDirectoryDialog
+    Left = 112
+    Top = 8
+  end
+end
