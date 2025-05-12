@@ -1,6 +1,6 @@
 /*MIT License
 
-Copyright (c) 2025 Aleksand Vorobev aka CynicRus
+Copyright (c) 2025 Aleksandr Vorobev aka CynicRus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
