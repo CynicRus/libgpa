@@ -1056,7 +1056,6 @@ GPA_API int32_t gpa_load_archive(const char *filename)
             return GPA_ERR_INVALID_FORMAT;
         }
 
-        // Проверка compression_type и encrypted остается как в оригинале
         bool valid_compression = (file_entry->compression_type == GPA_COMPRESS_NONE ||
                                   file_entry->compression_type == GPA_COMPRESS_ZLIB
 #ifdef GPA_WITH_LZMA
