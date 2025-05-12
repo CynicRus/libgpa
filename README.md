@@ -355,21 +355,21 @@ Error Codes
 
 The library returns error codes defined in enum GPAError:
 
-  - `GPA_OK: Success.
-  - `GPA_ERR_ARCHIVE_NOT_LOADED: No archive is loaded.
-  - `GPA_ERR_ARCHIVE_ALREADY_LOADED: An archive is already loaded.
-  - `GPA_ERR_ARCHIVE_EMPTY: The archive is empty.
-  - `GPA_ERR_FILE_NOT_FOUND: File not found.
-  - `GPA_ERR_ARCHIVE_FILE_NOT_FOUND: File not found in the archive.
-  - `GPA_ERR_INVALID_FORMAT: Invalid archive format.
-  - `GPA_ERR_IO: Input/output error.
-  - `GPA_ERR_MEMORY: Memory allocation error.
-  - `GPA_ERR_COMPRESSION: Compression/decompression error.
-  - `GPA_ERR_ENCRYPTION: Encryption error.
-  - `GPA_ERR_INVALID_PATH: Invalid file path.
-  - `GPA_ERR_BUFFER_TO_SMALL: Buffer too small.
-  - `GPA_ERR_DECRYPTION_FAILED: Decryption failed.
-  - `GPA_ERR_INVALID_PARAM: Invalid parameter.
+  - `GPA_OK`: Success.
+  - `GPA_ERR_ARCHIVE_NOT_LOADED`: No archive is loaded.
+  - `GPA_ERR_ARCHIVE_ALREADY_LOADED`: An archive is already loaded.
+  - `GPA_ERR_ARCHIVE_EMPTY`: The archive is empty.
+  - `GPA_ERR_FILE_NOT_FOUND`: File not found.
+  - `GPA_ERR_ARCHIVE_FILE_NOT_FOUND`: File not found in the archive.
+  - `GPA_ERR_INVALID_FORMAT`: Invalid archive format.
+  - `GPA_ERR_IO`: Input/output error.
+  - `GPA_ERR_MEMORY`: Memory allocation error.
+  - `GPA_ERR_COMPRESSION`: Compression/decompression error.
+  - `GPA_ERR_ENCRYPTION`: Encryption error.
+  - `GPA_ERR_INVALID_PATH`: Invalid file path.
+  - `GPA_ERR_BUFFER_TO_SMALL`: Buffer too small.
+  - `GPA_ERR_DECRYPTION_FAILED`: Decryption failed.
+  - `GPA_ERR_INVALID_PARAM`: Invalid parameter.
 
 ## GPA Tool
 
