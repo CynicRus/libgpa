@@ -100,6 +100,8 @@ This installs the library, headers, and CMake configuration files to the system 
 ### Bindings
 GPA also provides bindings for the FreePascal language, located in the fpc directory. There is also a graphical utility called GPA Manager that allows you to manage data in the archive through a graphical interface. This also serves as an example of using the library in FPC/Delphi.
 
+![test image](https://raw.githubusercontent.com/CynicRus/libgpa/main/images/test.png)
+
 ### Usage Examples
 The following examples demonstrate the core functionality of the GPA library using C code. Ensure the library is linked and the gpa.h header is included.
 
@@ -326,6 +328,7 @@ File Operations:
 - `gpa_delete_by_id(uint32_t id)`: Delete a file by ID.
 - `gpa_rename_by_id(uint32_t id, const char* new_path)`: Rename a file by ID.
 
+
 Metadata:
 
 - `gpa_get_id_by_name(const char* path, bool case_sensitive)`: Get the ID of a file by its path.
@@ -336,6 +339,7 @@ Metadata:
 - `gpa_is_encrypted_by_id(uint32_t id)`: Check if a file is encrypted.
 - `gpa_get_total_files()`: Get the total number of files in the archive.
 - `gpa_get_files_in_directory(const char* dir_path, uint32_t** ids)`: Get IDs of files in a directory.
+- `gpa_free_file_ids(uint32_t *ids)`: release memory allocated for ids in gpa_get_files_in_directory.
 
 Encryption and Compression:
 
